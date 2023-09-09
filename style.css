@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-size:border-box ;
+}
+body{
+    width: 100%;
+    height: 100%;
+    color: rgb(7, 7, 7);
+}
+
+#nav{
+    
+    background-color:#F2D8D9 ;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 50px;
+
+}
+.bg{
+    height: 100vh;
+    width: 100%;
+background-image: url(bg.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+
+a{
+    color: black;
+    text-decoration-line: none;
+}
+a:hover{
+    color: teal;
+}
+.Summary{
+
+   
+    text-align: center;
+    text-justify: auto;
+    padding-top: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+    
+}
+
+.edu{
+    
+    text-align: center;
+    text-justify: auto;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.proj{
+   
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.intro{
+    text-align: center;
+    padding-top: 250px;
+    
+}
+
+ul{
+    list-style: none;
+}
